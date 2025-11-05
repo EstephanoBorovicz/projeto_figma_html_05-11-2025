@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.background{
+    position: absolute;
+    z-index: -2;
+    opacity: 20%;
+    height: 945px;
+    width: 1080px;
+    object-fit: cover;
+}
+.solid-background{
+    position:absolute;
+    background-color: #1B1B1B;
+    z-index: -1;
+    width: 1000px;
+    height: 1080px;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    height: 1080px;
+    width: 1920px;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15vh;
+}
+    .logo{
+        width: 180px;
+        height: 80px;
+    }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}  
+    .icones-nav{
+        height: 40px;
+    }
+
+main{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+    .informacoes-direita{
+        width: 400px;
+        margin-top: 100px;
+        margin-left: 40px;
+        
+    }
+        .reviews{
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .descricao{
+            margin-bottom: 20px;
+        }
+
+        .preco{
+            color: #CF052D;
+        }
+
+        .preco-original{
+            text-decoration: line-through;
+            margin-bottom: 20px;
+        }
+
+        .botao-carrinho-e-botao-quantidade{
+            display: flex;
+            flex-direction: row;
+            
+        }
+            .botao-carrinho{
+                display: flex;
+                flex-direction: row;
+                background-color: #CF052D;
+                align-items: center;
+                justify-content: center;
+                height: 57px;
+                width: 262px;
+            }
+                .icone-botao-carrinho{
+                    height: 27px;
+                    width: 26px;
+                }
+
+            .botao-quantidade{
+                width: 100px;
+                height: 60px;
+                display: flex;
+                flex-direction: row;
+                background-color: black;
+                align-items: center;
+                justify-content: center;
+                border-width: 10px;
+                color: #CF052D;
+            }
+
+            .botao-adicionar-aos-favoritos{
+                text-decoration: underline;
+                margin-bottom: 20px;
+            }
+                .botao-favoritos{
+                    height: 15px;
+                }
+            
+
+    .produto1{
+        width: 657px;
+        height: 841px;
+    }
+
+    .outras-fotos-esquerda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+        .produto1-pequeno{
+            width: 120px;
+            height: 120px;
+            border-style: solid;
+            border-color: #CF052D;
+            background-color: #202020;
+            margin-bottom: 10px;
+        }
+        .produto1-close{
+            width: 120px;
+            height: 120px;
+            border-style: solid;
+            border-color: gray;
+            background-color: #202020;
+            margin-bottom: 10px;
+        }
+        .produto1-menor{
+            width: 120px;
+            height: 120px;
+            border-style: solid;
+            border-color: gray;
+            background-color: #202020;
+        }
